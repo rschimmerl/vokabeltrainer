@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    font-family: Calibri, Arial, sans-serif;
+
+}
+
+.card {
+    min-width:  300px;
+    max-width: 500px;
+    height: 200px;
+    display: table-row;
+    border: 1px solid #AAA;
+    background-color: #EEE;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+
+}
+.card_cell {
+    min-width:  300px;
+    height: 200px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding: 7px;
+}
+
+.original, .deutsch {
+    font-size: 250%;
+    display: none;
+    
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+}
+
+
+.card_0 {
+    top: 100px;
+    left: 50px;
+}
+.card_1 {
+    top: 105px;
+    left: 55px;
+}
+.card_2 {
+    top: 110px;
+    left: 60px;
+}
+.card_3 {
+    top: 115px;
+    left: 65px;
+}
+.card_4 {
+    top: 120px;
+    left: 70px;
+}
+.card_5 {
+    top: 125px;
+    left: 75px;
+}
+.card_6 {
+    top: 130px;
+    left: 80px;
+}
+.card_7 {
+    top: 135px;
+    left: 85px;
+}
+.card_8 {
+    top: 140px;
+    left: 90px;
+}
+.card_9 {
+    top: 145px;
+    left: 95px;
+}
+
+.first_card .original {
+    display: block;
+}
+
+.verschwinden {
+
+    transition: 1s ease-in-out;
+    -webkit-transition: 1s ease-in-out;
+
+    -webkit-transform: translate(500px, 0px) scale(0) ;
+    -moz-transform: translate(500px, 0px) scale(0) ;
+    -o-transform: translate(500px, 0px) scale(0) ;
+    -ms-transform: translate(500px, 0px) scale(0) ;
+    transform: translate(500px, 0px) scale(0);
+
+}
+
+.flipper {
+
+    transition: 1s ease-in-out;
+    -webkit-transition: 1s ease-in-out;
+
+    -webkit-transform: rotateX(180deg) rotateY(0deg) rotateZ(0deg);
+    -moz-transform: rotateX(180deg) rotateY(0deg) rotateZ(0deg);
+    -o-transform: rotateX(180deg) rotateY(0deg) rotateZ(0deg);
+    -ms-transform: rotateX(180deg) rotateY(0deg) rotateZ(0deg);
+    transform: rotateX(180deg) rotateY(0deg) rotateZ(0deg);
+
+}

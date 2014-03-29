@@ -1,0 +1,68 @@
+
+.card {
+    width:  250px;
+    height: 150px;
+    text-align: center;
+    border: 1px solid #AAA;
+    background-color: #EEE;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+      
+}
+
+.card_cell {
+	height:150px;
+}
+
+.original, .deutsch {
+    font-size: 200%;
+}
+
+.card_0 {
+    top: 80px;
+    left: 10px;
+    
+}
+.card_1 {
+    top: 85px;
+    left: 15px;
+
+}
+.card_2 {
+    top: 90px;
+    left: 20px;
+
+}
+.card_3 {
+    top: 95px;
+    left: 25px;
+
+}
+.card_4 {
+    top: 100px;
+    left: 30px;
+
+}
+.card_5 {
+    top: 105px;
+    left: 35px;
+
+}
+.card_6 {
+    top: 110px;
+    left: 40px;
+}
+.card_7 {
+    top: 115px;
+    left: 45px;
+
+}
+.card_8 {
+    top: 120px;
+    left: 50px;
+}
+.card_9 {
+    top: 125px;
+    left: 55px;
+}
